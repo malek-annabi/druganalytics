@@ -1,1 +1,1 @@
-web: gunicorn druganalytics:app
+web: gunicorn druganalytics.wsgi --log-file -
